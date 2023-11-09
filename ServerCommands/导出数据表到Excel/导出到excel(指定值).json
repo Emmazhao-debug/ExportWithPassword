@@ -1,0 +1,90 @@
+{
+  "Name": "导出到excel(指定值)",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.ServerImportExportExcelCommand, ServerDesignerCommon",
+      "ExcelOperation": 1,
+      "FilePath": "C:\\share\\exporttabletoexcel.xlsx",
+      "Password": "xA123456",
+      "TableName": "汽车企业信息",
+      "Columns": [
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "ID",
+            "GUID": "adbca537-8150-41d3-9bbd-c62540d04807"
+          },
+          "ExcelColumnNameOrIndex": "ID",
+          "IsPrimaryKey": true
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "企业",
+            "GUID": "154f4331-9ae5-471c-b9cf-13275536ac20"
+          },
+          "ExcelColumnNameOrIndex": "企业"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "联系人",
+            "GUID": "bef5371f-f17b-4c24-b8b6-d349e0651322"
+          },
+          "ExcelColumnNameOrIndex": "联系人"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "电话",
+            "GUID": "0edc7fca-96a7-47c6-9f55-7ba71f21dea4"
+          },
+          "ExcelColumnNameOrIndex": "电话"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "地址",
+            "GUID": "a8b1e702-ddeb-4c65-a825-2bdd38f59200"
+          },
+          "ExcelColumnNameOrIndex": "地址"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "备注",
+            "GUID": "74483ca6-1e5c-4ea0-a07d-44dbe9ff1077"
+          },
+          "ExcelColumnNameOrIndex": "备注"
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": []
+}

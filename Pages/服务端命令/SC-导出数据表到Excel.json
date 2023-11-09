@@ -1,0 +1,454 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 31.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "Values": {
+    "1,2": "导出数据表到Excel",
+    "1,11": "导出到Excel(传递参数)",
+    "4,2": "导出到excel",
+    "4,11": "导出到Excel(传递参数)",
+    "4,19": "FilePath",
+    "4,22": "C:\\share\\exporttabletoexcel.xlsx",
+    "7,2": "导出到excel(指定值)1",
+    "7,11": "导出到Excel(密码长度大于255)",
+    "7,19": "Password",
+    "7,22": "设置密码",
+    "10,2": "导出到excel(全局变量)",
+    "10,11": "调用私有导出命令",
+    "13,11": "Exportwithoutheader",
+    "14,18": "importdata"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出数据表到Excel",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出数据表到Excel",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出到Excel(传递参数)",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "filepath",
+                "Value": "C:\\share\\exporttabletoexcel.xlsx"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "password"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出到Excel(传递参数)",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出到excel(指定值)",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出到excel",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "4,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出到Excel(传递参数)",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "filepath",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='SC-导出数据表到Excel'!filepath"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "password",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='SC-导出数据表到Excel'!password"
+                }
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出到Excel(传递参数)",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "4,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "C:\\share\\exporttabletoexcel.xlsx"
+      }
+    },
+    "7,2": {
+      "CellComment": {
+        "Comments": "七个空格作为密码"
+      },
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出到excel(指定值空格)",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出到excel(指定值)1",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出到Excel(密码长度大于255)",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出到Excel(密码长度大于255)",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "7,22": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "SelectOnly": false,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "",
+            "DisplayValue": ""
+          },
+          {
+            "Value": "设置密码",
+            "DisplayValue": "设置密码"
+          },
+          {
+            "Value": "HanaDB密码设置001",
+            "DisplayValue": "HanaDB密码设置001"
+          },
+          {
+            "Value": "花火大会あいうえお００１",
+            "DisplayValue": "花火大会あいうえお００１"
+          },
+          {
+            "Value": "혀내",
+            "DisplayValue": "혀내"
+          },
+          {
+            "Value": "zyy20231009",
+            "DisplayValue": "zyy20231009"
+          },
+          {
+            "Value": "Zyy20231019",
+            "DisplayValue": "Zyy20231019"
+          },
+          {
+            "Value": "!@#$%^&*()_+-={}[]\\|'\";:,./<>?`~",
+            "DisplayValue": "!@#$%^&*()_+-={}[]\\|'\";:,./<>?`~"
+          }
+        ],
+        "CellDefaultValue": "设置密码"
+      }
+    },
+    "10,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出到excel(全局变量)",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出到excel(全局变量)",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "10,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "调用私有导出命令",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "调用私有导出命令",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "13,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "Exportwithoutheader",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "Exportwithoutheader",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "14,18": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "importdata",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "importdata",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "17,2": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "汽车企业信息",
+        "RowIndex": 17,
+        "ColumnIndex": 2,
+        "RowCount": 16,
+        "ColumnCount": 33,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "18,2": {
+      "NameUsedInJavaScript": "企业",
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "企业",
+        "GUID": "c2a5ab33-e8f5-4457-820d-f0ef0e4b105d"
+      }
+    },
+    "18,6": {
+      "NameUsedInJavaScript": "联系人",
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "联系人",
+        "GUID": "79b1cc06-a4f1-4963-944d-e678477249cc"
+      }
+    },
+    "18,10": {
+      "NameUsedInJavaScript": "电话",
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "电话",
+        "GUID": "515d569a-1652-49b7-8338-0bfe8f54c65d"
+      }
+    },
+    "18,14": {
+      "NameUsedInJavaScript": "地址",
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "地址",
+        "GUID": "a4214392-75ad-42c8-b5dd-b50568fafacb"
+      }
+    },
+    "18,18": {
+      "NameUsedInJavaScript": "备注",
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "备注",
+        "GUID": "cf1e4923-c801-4745-aab1-e2e8539fbd39"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "WordWrap": true
+      },
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,11": 0,
+      "4,11": 0,
+      "4,22": 1,
+      "6,49": 2,
+      "7,11": 0,
+      "7,22": 2,
+      "15,28": 2,
+      "15,29": 2,
+      "16,11": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,2,2,7",
+    "4,2,2,7",
+    "7,2,2,7",
+    "10,2,2,7",
+    "1,11,2,6",
+    "4,11,2,6",
+    "4,19,2,3",
+    "4,22,2,13",
+    "7,19,2,3",
+    "7,22,2,13",
+    "7,11,2,6",
+    "10,11,2,6",
+    "13,11,2,6",
+    "19,2,14,33",
+    "18,2,1,4",
+    "18,6,1,4",
+    "18,10,1,4",
+    "18,14,1,4",
+    "18,18,1,4",
+    "14,18,2,5",
+    "17,2,1,4",
+    "17,6,1,4",
+    "17,10,1,4",
+    "17,14,1,4",
+    "17,18,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "filepath",
+      "Formula": "'SC-导出数据表到Excel'!$W$5"
+    },
+    {
+      "Name": "password",
+      "Formula": "'SC-导出数据表到Excel'!$W$8"
+    },
+    {
+      "Name": "导出数据表到Excel",
+      "Formula": "'SC-导出数据表到Excel'!$C$2"
+    },
+    {
+      "Name": "Button",
+      "Formula": "'SC-导出数据表到Excel'!$L$2"
+    },
+    {
+      "Name": "导出到excel",
+      "Formula": "'SC-导出数据表到Excel'!$C$5"
+    },
+    {
+      "Name": "Button1",
+      "Formula": "'SC-导出数据表到Excel'!$L$5"
+    },
+    {
+      "Name": "Button2",
+      "Formula": "'SC-导出数据表到Excel'!$C$8"
+    },
+    {
+      "Name": "Button3",
+      "Formula": "'SC-导出数据表到Excel'!$L$8"
+    },
+    {
+      "Name": "globalvariable",
+      "Formula": "'SC-导出数据表到Excel'!$C$11"
+    },
+    {
+      "Name": "调用私有导出命令",
+      "Formula": "'SC-导出数据表到Excel'!$L$11"
+    },
+    {
+      "Name": "exportwithoutheader",
+      "Formula": "'SC-导出数据表到Excel'!$L$14"
+    }
+  ]
+}//KxuoqjZcuVXkQFXLEPIZQJvr4Sa5FnRl9zrsinofOJEXaLGu7RcgScYPvPASJQGgix2GZIBAXGeU3OT2+/axmf+9hVSo1B6HRb8dcNfD6ApwJozFk0TdUxErikLoLWEVP3rRN7mnI3TZZG+b44o2rW9YvyXlj5fuGxsCLnZNW30DGdtLh+MM9r+j69ryWcG6rk9GD8WfaczAi+KAk3L/HOuayOOq2HnEbTG3Oj0BbcmleQnxVsMmxo9CJ82+WO9ZJeigxwTXsYQW0rDrvpudXajNYO0guUqN8qr4E13DE1wd8lIp4mrn96sNiz1zQd714ZIKM8Cjvq/nEDsp8E2zTIlj8rBMIq1bmUOXichRehQCO7q4ZC3khOlHNGXgfdVhsPrgWBk01lWTU4aTk2+oD/oav+jYkBdNr1S+6hH725eVbSnFWCsVojvAvt9D8MfpJRhon4lSmhFOd4xHEWrvlBhZ9KpWbnES8eY5G7DtTaRv3gQcFrTTbcdW9EzXioZcFtNJ3X342WhNIOy8OaQkNL7bU4DUOhOmGnKXB9m7JjWADq/OZp3Ia5rY4KzqbGaf8Nn4yOWtNu+/FaP+1xPv3xFQy9HQmgrsUQr/zH4XZM3tJ9/Uxo5tIJrgLaPu2V60zvVADhH8LKkITe5anya6jMZKpO8iIv/pSvaFVOpt9MkmkUKBaGKfF5T+25ZXr+U0dPVFoK7ohx8uk6cPZ6WU9x6sAWH1uDGR0IBHR7Bhc/5UDwF6sCpB2Y7JzK7vx++jG/hy6tbyxuOiaih3NJTqUVb++V4t/2asW4ne2APFmkFjd8o7ebTiVCTPCxsQNWS11nA3ZtV2jLGq14c7PVQtGgsF1OgZK8O29f94s1eA1gy6utC+AIwebpEiXq57zEfRYAVF8z9fI53FG9zNLh07jg==|920

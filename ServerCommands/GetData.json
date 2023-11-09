@@ -1,0 +1,52 @@
+{
+  "Name": "GetData",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": []
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "value",
+      "TableValue": {
+        "TableName": "passwordtable",
+        "OnlyGetValue": true,
+        "TableValueType": 0,
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "passwordtable",
+              "ColumnName": "Text",
+              "GUID": "6a5c2660-e010-44af-a6db-c42d1abafa14"
+            },
+            "ColumnName": "Text"
+          }
+        ]
+      },
+      "ID": "7961a4b004564454813662470dd7acde"
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon"
+    }
+  ],
+  "ReturnProperties": []
+}

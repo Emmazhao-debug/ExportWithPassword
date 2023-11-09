@@ -1,0 +1,105 @@
+{
+  "Name": "导出到Excel(传递参数)",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "ArrayItems": [],
+          "Name": "filepath",
+          "DataValidationInfo": {}
+        },
+        {
+          "ArrayItems": [],
+          "Name": "password",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.ServerImportExportExcelCommand, ServerDesignerCommon",
+      "ExcelOperation": 1,
+      "FilePath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=filepath"
+      },
+      "Password": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=password"
+      },
+      "TableName": "汽车企业信息",
+      "Columns": [
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "ID",
+            "GUID": "4d5d3fb1-fa4b-470e-a75a-c0568e510648"
+          },
+          "ExcelColumnNameOrIndex": "ID",
+          "IsPrimaryKey": true
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "企业",
+            "GUID": "6cf43ccd-4009-44e2-9bee-2a04addc372d"
+          },
+          "ExcelColumnNameOrIndex": "企业"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "联系人",
+            "GUID": "4f18d58e-197d-48e0-9170-8107dca516ae"
+          },
+          "ExcelColumnNameOrIndex": "联系人"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "电话",
+            "GUID": "d677aa17-36e7-4672-876f-e2f197c8ed73"
+          },
+          "ExcelColumnNameOrIndex": "电话"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "地址",
+            "GUID": "74158311-6038-4248-8e97-04ec7ae0db99"
+          },
+          "ExcelColumnNameOrIndex": "地址"
+        },
+        {
+          "BindingColumn": {
+            "TableName": "汽车企业信息",
+            "ColumnName": "备注",
+            "GUID": "ebcd3e7c-5fec-489b-8ad0-5969f62ee3dc"
+          },
+          "ExcelColumnNameOrIndex": "备注"
+        }
+      ],
+      "TopCount": "10"
+    }
+  ],
+  "ReturnProperties": []
+}

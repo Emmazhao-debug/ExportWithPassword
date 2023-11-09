@@ -1,0 +1,214 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,2": "导出其它+多sheet+自定义",
+    "1,13": "导出其它+1sheet+Pagetitle",
+    "1,24": "切换导出页",
+    "4,2": "导出其它(引用子页面单元格)"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "ExportExcelPageNameMode": 2,
+            "Password": "xA123456",
+            "TargetPageName": "被导出页面",
+            "ExportTableOverFlowMode": 0,
+            "NewOtherName": "测试导出其它页面"
+          }
+        ],
+        "Text": "导出其它+多sheet+自定义",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "ExportExcelPageNameMode": 1,
+            "TargetPageName": "被导出页面",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "导出其它+1sheet+Pagetitle",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "encrypt",
+            "ParameterValue": "123456",
+            "ID": "e317b18124014297aba1ff8d1c926db0"
+          },
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "ExportExcelPageNameMode": 1,
+            "TargetPageName": "被导出页面",
+            "ExportTableOverFlowMode": 0,
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "切换导出页",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "TargetPageName": "被导出页面",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "导出其它(引用子页面单元格)",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "4,13": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "7,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "UserControl1",
+        "PropertyValues": [
+          {
+            "Name": "passwordvalue",
+            "Value": "showdemo20231020"
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "WordWrap": true
+      },
+      {
+        "Formatter": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "1,13": 0,
+      "1,14": 1,
+      "1,15": 1,
+      "1,16": 1,
+      "1,17": 1,
+      "1,18": 1,
+      "1,19": 1,
+      "1,20": 1,
+      "1,21": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "2,18": 1,
+      "2,19": 1,
+      "2,20": 1,
+      "2,21": 1,
+      "4,2": 2,
+      "4,13": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,2,2,9",
+    "1,13,2,9",
+    "4,13,2,12",
+    "4,2,2,9",
+    "7,2,7,24",
+    "1,24,2,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "前端命令导出其它",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "passwordsetting",
+      "Formula": "其它页面!$N$5"
+    },
+    {
+      "Name": "exportotherpage",
+      "Formula": "其它页面!$C$2"
+    },
+    {
+      "Name": "exportotherpage01",
+      "Formula": "其它页面!$N$2"
+    },
+    {
+      "Name": "parameter",
+      "Formula": "其它页面!$Y$2"
+    },
+    {
+      "Name": "referencecell",
+      "Formula": "其它页面!$C$5"
+    },
+    {
+      "Name": "usercontrol",
+      "Formula": "其它页面!$C$8"
+    }
+  ]
+}//q9UgGp858LhSLvqdivAKnienYyvxMDbYMHOsQopOZVZDEd3TNWQGwP9lNv5axkbU4iHZmr6xaakmvRsLrqXDZA5QZ0iJY0kAFo2MCi0vgMt0WFde7wsN6/vLI9FOS7pQtUNvr3uiWpSso5PeCWq1dCXMya7PKaRa1UbOBcz9FmcV3nxQFkuEBaLqVMRGxY+PGly+Hb4VycLlXbukFx4ZmFMd+HPu8ZvRnAIYK1MXf0IhWhmch0uSkwVYNZa6Rj5Zu/iM90XWSeGboWhgrwIenqJYQKx1RIdhm+fClnMOwzqgfQyBEjrIIenlwa/mKav6+ygV2ZgtqGNywxJyLq6BbhoC1bR+OemjcWH/8IUlZwPfNIfSA5ODPJ0Q2p3hv6gMWa4g2fdYx2ifJ4K7T6xQReJ58tQv3crLBoyDDwYbjcq3Aly52yPfJYKIH/HqWpOk8a0Arc2B5IX/o7CIA8zzPicFSn85TQbH3P6Fe9+9a+GLOw6kDjILCi9fsZB09Mc5vdA/+LF44/cegmZYHhZl1EWOxb59tT8Ah+Pz+76nlDTsvABYZ/yhkON3UJU+XA/1a8Wh33lAS8kx0qahrUUhZlbLLGPusPulTYf8gGscU93kgKVPEZODopRa6ErwYXfp9UQR/coGE1HWspbPfeFb53VUNzY7lti2iipu7wF9vJjMvAvJ1X3J4xXxwbSofu4vFqR20JsayOHhANqrbI9rtYJ6svdEgscT6+vZjnZZndyp9yLqkEOn7LWMfJloXZ6oVOKd2a9+LJiGGg/lMRmGBlhKxt75fHglwrSBqjm9/N9QOyzc41iHXkehtTx1xk2cP+g4MR1dy6pgKv2yd30QB/GXowgB+aN9ceitSI5hHCUOoeYP+5fLPK0VVIU2AtZKG27bK0bZdOdaBsS03d4gAw==|920

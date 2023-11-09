@@ -1,0 +1,168 @@
+{
+  "Rows": {
+    "Count": 20
+  },
+  "Cols": {
+    "Count": 30
+  },
+  "Values": {
+    "1,1": "xA123456@ga",
+    "1,19": "export listview"
+  },
+  "AttachInfos": {
+    "1,19": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
+            "ListViewName": "Listview1",
+            "NewOtherName": "",
+            "IsOnlyExportValue": false
+          }
+        ],
+        "Text": "export listview",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "3,1": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "汽车销售信息",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "RowCount": 14,
+        "ColumnCount": 27,
+        "TopCondition": {
+          "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
+          "TopCount": 500
+        },
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "4,1": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "车型",
+        "GUID": "40722559-95e5-4adf-846c-80e4d214db6f"
+      }
+    },
+    "4,5": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "品牌",
+        "GUID": "840d2492-0be1-4ef0-8d66-ddd8ca389e45"
+      }
+    },
+    "4,9": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "企业",
+        "GUID": "66a6b202-926d-49e0-8d00-06b0c730c8a1"
+      }
+    },
+    "4,13": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "系别",
+        "GUID": "7b76085f-b5f3-4e60-8215-ddf67f5abf1c"
+      }
+    },
+    "4,17": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "类别",
+        "GUID": "ecee469d-a457-4c89-bf98-b1b7a73c16fc"
+      }
+    },
+    "4,21": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "_2015销量",
+        "GUID": "16aa0d06-9c72-4b84-9bbd-1270b30a197e"
+      }
+    },
+    "4,25": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "_2014销量",
+        "GUID": "cb64afec-b4a5-4f87-9a6c-7efcbc9e0e3c"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "5,1,12,27",
+    "4,1,1,4",
+    "4,5,1,4",
+    "4,9,1,4",
+    "4,13,1,4",
+    "4,17,1,4",
+    "4,21,1,4",
+    "4,25,1,3",
+    "1,19,1,9",
+    "1,1,1,9",
+    "3,1,1,4",
+    "3,5,1,4",
+    "3,9,1,4",
+    "3,13,1,4",
+    "3,17,1,4",
+    "3,21,1,4",
+    "3,25,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "MasterPage1",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "passwordsetting01",
+      "Formula": "cellnamewithmasterpage!$B$2"
+    },
+    {
+      "Name": "Button",
+      "Formula": "cellnamewithmasterpage!$T$2"
+    }
+  ]
+}//WXOU0UUqhngODm5DkHbG9k6JOOSOT++wCto7hOBhurr24ULJ56xl6XBV2QFqQItpRGzgUo6E//Y/cahumckfqVX/MvCEWcUH4Yznh9PBVdbRm6IZni1PGjZXWreVXRxf95Nh1he0WhcZKzyC4qcyoBZJOrxzocHH1bY+nknwcje2xJ8bRYLVlSvz5nw+tCo4EVpxtoIXBqhFOmLamCapcBv8aEAL/X4z1bBnKAPlykl9bZZ6NjS5TMjf9peCGCNk+m3XJDev8nJ0D8R23P/SK5cwjsf66dxUqgT5Iakke0HNGRcqnaOHO8ZJe8ubIJINtyF9kUqqJJy7o/3OJ+ifnU6f4s+zD+Y6Xxxyfr34xc/VSIeOIs+Hf5Hl7SUCNQsnckUIRhy3bG3Stu1nFoFqoDqNeFrL6hfTb7/P/maM8zH0grXQRGSHmwrnF4UGc21Lvk0Vgp7a9CLDqPdSpyKZe5pJ8iHmfJsRYN5NIDDyTE7AFHTO7lTgGN6MNBqF8E/FSUtvf4Uq+VTahMtBTvHjPTyv1VUwbClJNdBEleV9fHNlEywj1tsiwleVwkXv+VCTQ69UBAEYAFkFKZNf081BAZ/0jwoXy9+zeQi7ppY/I/GVgTeWyKKjoWhLQjSLrWG3vsFSLTo8kg+I0ZmR41IvA2Tp8G1vOlIommdUULzFZQXjZfM5cZXgBNVKwXhBL+N4SB2uHcWkS+Y++Dth+vWzCI+sRwlzcsSzPG4LxgOjE3XYdv1l+odxWhQny+lgy8nZPX4pYEFFBTZzp8vvHVESNkAQEWyEHDobwDM2vwhVjXq5ftJk7VdnRjT/g1AOCUF28f8/lK5J/LTPbbQRJA6N8tbD8TNH8Ad/V3s3ADsOqir3bPd73hCwmWX5BjvRf9WyM57A95lHki8Rj027ky30Ug==|920

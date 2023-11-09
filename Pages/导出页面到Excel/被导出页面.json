@@ -1,0 +1,1003 @@
+{
+  "Rows": {
+    "Count": 34
+  },
+  "Cols": {
+    "Count": 41
+  },
+  "Values": {
+    "0,2": "client show",
+    "2,34": "Lower"
+  },
+  "Formulas": {
+    "3,34": "LOWER(N4)"
+  },
+  "AttachInfos": {
+    "0,13": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "地址",
+        "GUID": "e49a1030-69e2-4e80-aefd-2c4f4d925601"
+      }
+    },
+    "0,23": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "备注",
+        "GUID": "b2d2afc5-9ed8-4e1d-b3b7-873c660f27b2"
+      }
+    },
+    "2,2": {
+      "ListViewInfo": {
+        "Name": "Listview2",
+        "TableName": "汽车企业信息",
+        "RowIndex": 2,
+        "ColumnIndex": 2,
+        "RowCount": 14,
+        "ColumnCount": 37,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "3,2": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "ID",
+        "GUID": "19a572c3-2700-47b7-9968-80cbcb264d04"
+      }
+    },
+    "3,6": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "企业",
+        "GUID": "251e4978-009f-4fe3-9f21-5446ff3567ca"
+      }
+    },
+    "3,13": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "联系人",
+        "GUID": "58d2fbbc-b885-492b-a320-eb026a7962fb"
+      }
+    },
+    "3,19": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "电话",
+        "GUID": "20eb23bb-daf5-40a1-8d2c-85b1cdeffb39"
+      }
+    },
+    "3,26": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "地址",
+        "GUID": "10ac058a-475e-41e4-b231-95d9f96cea96"
+      }
+    },
+    "3,30": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "备注",
+        "GUID": "8a969891-080e-4bfd-94ad-7006aa9ca506"
+      }
+    },
+    "17,2": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "汽车销售信息",
+        "RowIndex": 17,
+        "ColumnIndex": 2,
+        "RowCount": 14,
+        "ColumnCount": 12,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "18,2": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "系别",
+        "GUID": "b8b22dfd-7154-4c03-b183-45d97b5112b7"
+      }
+    },
+    "18,6": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "_2015平均销量",
+        "GUID": "89f7e6ba-1150-4abb-a4cc-16953b7a1bb3"
+      }
+    },
+    "18,10": {
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "_2014平均销量",
+        "GUID": "e1df01b3-484d-4eb4-870b-c338f2fe9d84"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFFFFF00",
+        "black",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,2": 0,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 1,
+      "0,18": 1,
+      "0,19": 1,
+      "0,20": 1,
+      "0,21": 1,
+      "0,22": 1,
+      "0,23": 2,
+      "0,24": 2,
+      "0,25": 2,
+      "0,26": 2,
+      "0,27": 2,
+      "0,28": 2,
+      "0,29": 2,
+      "0,30": 2,
+      "0,31": 2,
+      "0,32": 2,
+      "2,2": 3,
+      "2,3": 3,
+      "2,4": 3,
+      "2,5": 3,
+      "2,6": 3,
+      "2,13": 3,
+      "2,14": 3,
+      "2,15": 3,
+      "2,16": 3,
+      "2,17": 3,
+      "2,18": 3,
+      "2,19": 4,
+      "2,20": 4,
+      "2,21": 4,
+      "2,22": 4,
+      "2,23": 4,
+      "2,24": 4,
+      "2,25": 4,
+      "2,26": 3,
+      "2,27": 3,
+      "2,28": 3,
+      "2,29": 3,
+      "2,30": 3,
+      "2,31": 3,
+      "2,32": 3,
+      "2,33": 3,
+      "2,34": 3,
+      "2,35": 3,
+      "2,36": 3,
+      "2,37": 3,
+      "2,38": 3,
+      "3,2": 3,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 3,
+      "3,13": 3,
+      "3,14": 3,
+      "3,15": 3,
+      "3,16": 3,
+      "3,17": 3,
+      "3,18": 3,
+      "3,19": 3,
+      "3,20": 3,
+      "3,21": 3,
+      "3,22": 3,
+      "3,23": 3,
+      "3,24": 3,
+      "3,25": 3,
+      "3,26": 3,
+      "3,27": 3,
+      "3,28": 3,
+      "3,29": 3,
+      "3,30": 3,
+      "3,31": 3,
+      "3,32": 3,
+      "3,33": 3,
+      "3,34": 3,
+      "3,35": 3,
+      "3,36": 3,
+      "3,37": 3,
+      "3,38": 3,
+      "4,2": 3,
+      "4,3": 3,
+      "4,4": 3,
+      "4,5": 3,
+      "4,6": 3,
+      "4,7": 3,
+      "4,8": 3,
+      "4,9": 3,
+      "4,10": 3,
+      "4,11": 3,
+      "4,12": 3,
+      "4,13": 3,
+      "4,14": 3,
+      "4,15": 3,
+      "4,16": 3,
+      "4,17": 3,
+      "4,18": 3,
+      "4,19": 3,
+      "4,20": 3,
+      "4,21": 3,
+      "4,22": 3,
+      "4,23": 3,
+      "4,24": 3,
+      "4,25": 3,
+      "4,26": 3,
+      "4,27": 3,
+      "4,28": 3,
+      "4,29": 3,
+      "4,30": 3,
+      "4,31": 3,
+      "4,32": 3,
+      "4,33": 3,
+      "4,34": 3,
+      "4,35": 3,
+      "4,36": 3,
+      "4,37": 3,
+      "4,38": 3,
+      "5,2": 3,
+      "5,3": 3,
+      "5,4": 3,
+      "5,5": 3,
+      "5,6": 3,
+      "5,7": 3,
+      "5,8": 3,
+      "5,9": 3,
+      "5,10": 3,
+      "5,11": 3,
+      "5,12": 3,
+      "5,13": 3,
+      "5,14": 3,
+      "5,15": 3,
+      "5,16": 3,
+      "5,17": 3,
+      "5,18": 3,
+      "5,19": 3,
+      "5,20": 3,
+      "5,21": 3,
+      "5,22": 3,
+      "5,23": 3,
+      "5,24": 3,
+      "5,25": 3,
+      "5,26": 3,
+      "5,27": 3,
+      "5,28": 3,
+      "5,29": 3,
+      "5,30": 3,
+      "5,31": 3,
+      "5,32": 3,
+      "5,33": 3,
+      "5,34": 3,
+      "5,35": 3,
+      "5,36": 3,
+      "5,37": 3,
+      "5,38": 3,
+      "6,2": 3,
+      "6,3": 3,
+      "6,4": 3,
+      "6,5": 3,
+      "6,6": 3,
+      "6,7": 3,
+      "6,8": 3,
+      "6,9": 3,
+      "6,10": 3,
+      "6,11": 3,
+      "6,12": 3,
+      "6,13": 3,
+      "6,14": 3,
+      "6,15": 3,
+      "6,16": 3,
+      "6,17": 3,
+      "6,18": 3,
+      "6,19": 3,
+      "6,20": 3,
+      "6,21": 3,
+      "6,22": 3,
+      "6,23": 3,
+      "6,24": 3,
+      "6,25": 3,
+      "6,26": 3,
+      "6,27": 3,
+      "6,28": 3,
+      "6,29": 3,
+      "6,30": 3,
+      "6,31": 3,
+      "6,32": 3,
+      "6,33": 3,
+      "6,34": 3,
+      "6,35": 3,
+      "6,36": 3,
+      "6,37": 3,
+      "6,38": 3,
+      "7,2": 3,
+      "7,3": 3,
+      "7,4": 3,
+      "7,5": 3,
+      "7,6": 3,
+      "7,7": 3,
+      "7,8": 3,
+      "7,9": 3,
+      "7,10": 3,
+      "7,11": 3,
+      "7,12": 3,
+      "7,13": 3,
+      "7,14": 3,
+      "7,15": 3,
+      "7,16": 3,
+      "7,17": 3,
+      "7,18": 3,
+      "7,19": 3,
+      "7,20": 3,
+      "7,21": 3,
+      "7,22": 3,
+      "7,23": 3,
+      "7,24": 3,
+      "7,25": 3,
+      "7,26": 3,
+      "7,27": 3,
+      "7,28": 3,
+      "7,29": 3,
+      "7,30": 3,
+      "7,31": 3,
+      "7,32": 3,
+      "7,33": 3,
+      "7,34": 3,
+      "7,35": 3,
+      "7,36": 3,
+      "7,37": 3,
+      "7,38": 3,
+      "8,2": 3,
+      "8,3": 3,
+      "8,4": 3,
+      "8,5": 3,
+      "8,6": 3,
+      "8,7": 3,
+      "8,8": 3,
+      "8,9": 3,
+      "8,10": 3,
+      "8,11": 3,
+      "8,12": 3,
+      "8,13": 3,
+      "8,14": 3,
+      "8,15": 3,
+      "8,16": 3,
+      "8,17": 3,
+      "8,18": 3,
+      "8,19": 3,
+      "8,20": 3,
+      "8,21": 3,
+      "8,22": 3,
+      "8,23": 3,
+      "8,24": 3,
+      "8,25": 3,
+      "8,26": 3,
+      "8,27": 3,
+      "8,28": 3,
+      "8,29": 3,
+      "8,30": 3,
+      "8,31": 3,
+      "8,32": 3,
+      "8,33": 3,
+      "8,34": 3,
+      "8,35": 3,
+      "8,36": 3,
+      "8,37": 3,
+      "8,38": 3,
+      "9,2": 3,
+      "9,3": 3,
+      "9,4": 3,
+      "9,5": 3,
+      "9,6": 3,
+      "9,7": 3,
+      "9,8": 3,
+      "9,9": 3,
+      "9,10": 3,
+      "9,11": 3,
+      "9,12": 3,
+      "9,13": 3,
+      "9,14": 3,
+      "9,15": 3,
+      "9,16": 3,
+      "9,17": 3,
+      "9,18": 3,
+      "9,19": 3,
+      "9,20": 3,
+      "9,21": 3,
+      "9,22": 3,
+      "9,23": 3,
+      "9,24": 3,
+      "9,25": 3,
+      "9,26": 3,
+      "9,27": 3,
+      "9,28": 3,
+      "9,29": 3,
+      "9,30": 3,
+      "9,31": 3,
+      "9,32": 3,
+      "9,33": 3,
+      "9,34": 3,
+      "9,35": 3,
+      "9,36": 3,
+      "9,37": 3,
+      "9,38": 3,
+      "10,2": 3,
+      "10,3": 3,
+      "10,4": 3,
+      "10,5": 3,
+      "10,6": 3,
+      "10,7": 3,
+      "10,8": 3,
+      "10,9": 3,
+      "10,10": 3,
+      "10,11": 3,
+      "10,12": 3,
+      "10,13": 3,
+      "10,14": 3,
+      "10,15": 3,
+      "10,16": 3,
+      "10,17": 3,
+      "10,18": 3,
+      "10,19": 3,
+      "10,20": 3,
+      "10,21": 3,
+      "10,22": 3,
+      "10,23": 3,
+      "10,24": 3,
+      "10,25": 3,
+      "10,26": 3,
+      "10,27": 3,
+      "10,28": 3,
+      "10,29": 3,
+      "10,30": 3,
+      "10,31": 3,
+      "10,32": 3,
+      "10,33": 3,
+      "10,34": 3,
+      "10,35": 3,
+      "10,36": 3,
+      "10,37": 3,
+      "10,38": 3,
+      "11,2": 3,
+      "11,3": 3,
+      "11,4": 3,
+      "11,5": 3,
+      "11,6": 3,
+      "11,7": 3,
+      "11,8": 3,
+      "11,9": 3,
+      "11,10": 3,
+      "11,11": 3,
+      "11,12": 3,
+      "11,13": 3,
+      "11,14": 3,
+      "11,15": 3,
+      "11,16": 3,
+      "11,17": 3,
+      "11,18": 3,
+      "11,19": 3,
+      "11,20": 3,
+      "11,21": 3,
+      "11,22": 3,
+      "11,23": 3,
+      "11,24": 3,
+      "11,25": 3,
+      "11,26": 3,
+      "11,27": 3,
+      "11,28": 3,
+      "11,29": 3,
+      "11,30": 3,
+      "11,31": 3,
+      "11,32": 3,
+      "11,33": 3,
+      "11,34": 3,
+      "11,35": 3,
+      "11,36": 3,
+      "11,37": 3,
+      "11,38": 3,
+      "12,2": 3,
+      "12,3": 3,
+      "12,4": 3,
+      "12,5": 3,
+      "12,6": 3,
+      "12,7": 3,
+      "12,8": 3,
+      "12,9": 3,
+      "12,10": 3,
+      "12,11": 3,
+      "12,12": 3,
+      "12,13": 3,
+      "12,14": 3,
+      "12,15": 3,
+      "12,16": 3,
+      "12,17": 3,
+      "12,18": 3,
+      "12,19": 3,
+      "12,20": 3,
+      "12,21": 3,
+      "12,22": 3,
+      "12,23": 3,
+      "12,24": 3,
+      "12,25": 3,
+      "12,26": 3,
+      "12,27": 3,
+      "12,28": 3,
+      "12,29": 3,
+      "12,30": 3,
+      "12,31": 3,
+      "12,32": 3,
+      "12,33": 3,
+      "12,34": 3,
+      "12,35": 3,
+      "12,36": 3,
+      "12,37": 3,
+      "12,38": 3,
+      "13,2": 3,
+      "13,3": 3,
+      "13,4": 3,
+      "13,5": 3,
+      "13,6": 3,
+      "13,7": 3,
+      "13,8": 3,
+      "13,9": 3,
+      "13,10": 3,
+      "13,11": 3,
+      "13,12": 3,
+      "13,13": 3,
+      "13,14": 3,
+      "13,15": 3,
+      "13,16": 3,
+      "13,17": 3,
+      "13,18": 3,
+      "13,19": 3,
+      "13,20": 3,
+      "13,21": 3,
+      "13,22": 3,
+      "13,23": 3,
+      "13,24": 3,
+      "13,25": 3,
+      "13,26": 3,
+      "13,27": 3,
+      "13,28": 3,
+      "13,29": 3,
+      "13,30": 3,
+      "13,31": 3,
+      "13,32": 3,
+      "13,33": 3,
+      "13,34": 3,
+      "13,35": 3,
+      "13,36": 3,
+      "13,37": 3,
+      "13,38": 3,
+      "14,2": 3,
+      "14,3": 3,
+      "14,4": 3,
+      "14,5": 3,
+      "14,6": 3,
+      "14,7": 3,
+      "14,8": 3,
+      "14,9": 3,
+      "14,10": 3,
+      "14,11": 3,
+      "14,12": 3,
+      "14,13": 3,
+      "14,14": 3,
+      "14,15": 3,
+      "14,16": 3,
+      "14,17": 3,
+      "14,18": 3,
+      "14,19": 3,
+      "14,20": 3,
+      "14,21": 3,
+      "14,22": 3,
+      "14,23": 3,
+      "14,24": 3,
+      "14,25": 3,
+      "14,26": 3,
+      "14,27": 3,
+      "14,28": 3,
+      "14,29": 3,
+      "14,30": 3,
+      "14,31": 3,
+      "14,32": 3,
+      "14,33": 3,
+      "14,34": 3,
+      "14,35": 3,
+      "14,36": 3,
+      "14,37": 3,
+      "14,38": 3,
+      "15,2": 3,
+      "15,3": 3,
+      "15,4": 3,
+      "15,5": 3,
+      "15,6": 3,
+      "15,7": 3,
+      "15,8": 3,
+      "15,9": 3,
+      "15,10": 3,
+      "15,11": 3,
+      "15,12": 3,
+      "15,13": 3,
+      "15,14": 3,
+      "15,15": 3,
+      "15,16": 3,
+      "15,17": 3,
+      "15,18": 3,
+      "15,19": 3,
+      "15,20": 3,
+      "15,21": 3,
+      "15,22": 3,
+      "15,23": 3,
+      "15,24": 3,
+      "15,25": 3,
+      "15,26": 3,
+      "15,27": 3,
+      "15,28": 3,
+      "15,29": 3,
+      "15,30": 3,
+      "15,31": 3,
+      "15,32": 3,
+      "15,33": 3,
+      "15,34": 3,
+      "15,35": 3,
+      "15,36": 3,
+      "15,37": 3,
+      "15,38": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,2,1,4",
+    "3,13,1,6",
+    "3,19,1,7",
+    "3,26,1,4",
+    "3,30,1,4",
+    "3,34,1,5",
+    "18,2,1,4",
+    "18,10,1,4",
+    "4,2,12,37",
+    "19,2,12,12",
+    "0,2,1,8",
+    "3,6,1,7",
+    "0,13,1,10",
+    "0,23,1,10",
+    "18,6,1,4",
+    "2,2,1,4",
+    "2,6,1,7",
+    "2,13,1,6",
+    "2,19,1,7",
+    "2,26,1,4",
+    "2,30,1,4",
+    "2,34,1,5",
+    "17,2,1,4",
+    "17,6,1,4",
+    "17,10,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "汽车销售信息"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "Charts": [
+    {
+      "ChartType": 22,
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, ServerDesignerCommon",
+        "ChartName": "Chart1",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "被导出页面",
+            "ListViewName": "Listview1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=被导出页面!G19"
+            }
+          },
+          {
+            "SheetName": "被导出页面",
+            "ListViewName": "Listview1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=被导出页面!K19"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "被导出页面",
+          "ListViewName": "Listview1",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=被导出页面!C19"
+          }
+        },
+        "DataSourceListviewName": "4790743f-1e21-48ce-bc23-baadd920b8fb"
+      },
+      "DisplayEmptyCellsAs": 1,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "ChartTitle": {
+        "Text": "グラフタイトル",
+        "StyleInfo": {
+          "FontSize": 18.666666666666664,
+          "FontWeight": "Normal",
+          "Foreground": "Text 1 35"
+        }
+      },
+      "XAxises": [
+        {
+          "Items": [
+            "德系",
+            "意系",
+            "日系",
+            "法系",
+            "瑞系",
+            "美系",
+            "自主",
+            "韩系"
+          ],
+          "UseCustomItems": true,
+          "MajorTickPosition": 0,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorGridlinesStroke": "Background 1 -15",
+          "MajorGridlinesStrokeThickness": 0.8,
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "FontSize": 12.0,
+            "StrokeDashType": 8,
+            "Stroke": "Background 1 -15",
+            "StrokeThickness": 0.8
+          }
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "MajorTickPosition": 0,
+          "LabelFormatter": "General",
+          "MajorGridlinesStroke": "Background 1 -15",
+          "MajorGridlinesStrokeThickness": 0.8,
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "FontSize": 12.0,
+            "StrokeDashType": 0,
+            "Stroke": "Background 1 -15",
+            "StrokeThickness": 0.0
+          }
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "Legend": {
+        "Orientation": 0,
+        "Alignment": 6,
+        "IsAutomaticFill": false,
+        "StyleInfo": {
+          "Fill": "Transparent",
+          "FontSize": 12.0
+        }
+      },
+      "DataSeries": [
+        {
+          "Values": [
+            101887.80487804877,
+            34045.0,
+            43024.49295774648,
+            36501.2,
+            9321.25,
+            78922.28125,
+            26154.189873417723,
+            76786.26086956522
+          ],
+          "Name": "_2015平均销量",
+          "DataLabelStyle": {
+            "StyleInfo": {
+              "FontSize": 12.0
+            }
+          },
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {},
+            {
+              "PointIndex": 1
+            },
+            {
+              "PointIndex": 2
+            },
+            {
+              "PointIndex": 3
+            },
+            {
+              "PointIndex": 4
+            },
+            {
+              "PointIndex": 5
+            },
+            {
+              "PointIndex": 6
+            },
+            {
+              "PointIndex": 7
+            }
+          ],
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "StrokeDashType": 8,
+            "Stroke": "Background 1",
+            "StrokeThickness": 1.5
+          }
+        },
+        {
+          "Values": [
+            101887.80487804877,
+            34045.0,
+            43024.49295774648,
+            36501.2,
+            9321.25,
+            78922.28125,
+            26154.189873417723,
+            76786.26086956522
+          ],
+          "Name": "_2014平均销量",
+          "DataLabelStyle": {
+            "StyleInfo": {
+              "FontSize": 12.0
+            }
+          },
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {},
+            {
+              "PointIndex": 1
+            },
+            {
+              "PointIndex": 2
+            },
+            {
+              "PointIndex": 3
+            },
+            {
+              "PointIndex": 4
+            },
+            {
+              "PointIndex": 5
+            },
+            {
+              "PointIndex": 6
+            },
+            {
+              "PointIndex": 7
+            }
+          ],
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "StrokeDashType": 8,
+            "Stroke": "Background 1",
+            "StrokeThickness": 1.5
+          }
+        }
+      ],
+      "PlotArea": {
+        "IsAutomaticFill": false,
+        "StyleInfo": {
+          "Fill": "Transparent"
+        }
+      },
+      "StyleInfo": {
+        "Fill": "Background 1",
+        "Foreground": "Text 1 35",
+        "Stroke": "Background 1 -15",
+        "StrokeThickness": 0.8
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart1",
+      "Location": "297,338",
+      "Size": "480,290"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "cellname",
+      "Formula": "被导出页面!$C$1"
+    }
+  ]
+}//7hFrINGKIJIYAvov8EsUc5oqwUNp7cz6O5Q/yhLOoiZnP4U6GC62ZgFy58YwbPUn7+SYqyDfpOLzrULlGuSuZAfsUCLljjeoK1Aktrvv0DTbYmD8LtolXMHd91llZX+FH9EDyGdibYrZ6zo6mLLk4//moD6vw6Y1rUzOmuNEfVOXHEbmGrQqn9h5MquiEMDNAKBbY4ZPwpCIxwrnjE8S5XdyDTyJQB8VfOU8Y9JpB7aPee1N/JH8ur575u3/DmmvjBabncDbzgDplSbz2MGbdN8rcQ3Fusy+XXixoukuS55x4oQhSSftBF8huoY0TyixBbG5G/qCmZf7Hr0aDmWzrdry3epXYkYOJw38LVyI5P/W0gO6Il36bBgWZ9Ucrl15CYfrtN6CYAZMPl2+1IlZd1oO47hcmKauy3OoRYloEy7aStr4lH4CPKlApWC9pC055ON1IrG0W/nxmwZzL5s/36FFT/XUqPhYwjEU1kSApw15EvQaOKzzJeHLPliibc8XJdGBIEDmTH1XUB6rk1ou12ncL9Vb63UAjwjsaIr4m8Me7xdrXOh41pcurwlIdby2jKsa5LjoKseNBLFatP5zi7BBZ2cixm5/7RJwFKU7POrqCbCPheLOgag4eB/B0MXrWT/Mznr8IZyr7RC3rdL1OWhHaeb0T4hXlYxaUdc0iV6k8yZ3zsiq3vOXe+VAGb1k2WmyFPirBMyPvQthKmpIm3pGnkBEAImiT0qQiaarx3gxnYWPf4D6R5WKwqXUVNJwCZtyA5XMOUE6bk5YbTAnO5P3TwsE7j1L3FNd2ucQhKYGpb9nNXFKbEQOX9Ax/QJNj2MUG13Ur4W6MmvsbZGzZWW3rCHhQsUNDKOZV4TAXkRiYg2Jy9SqNFFbA1Iefwk7gFHmsd99nG9rVP3r30jYqw==|920

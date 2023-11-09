@@ -1,0 +1,130 @@
+{
+  "Rows": {
+    "Count": 28
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "2,44": "设置密码"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "Cellwithcellname"
+      }
+    },
+    "2,44": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "设置密码",
+            "DisplayValue": "设置密码"
+          },
+          {
+            "Value": "HanaDB密码设置001",
+            "DisplayValue": "HanaDB密码设置001"
+          },
+          {
+            "Value": "花火大会あいうえお００１",
+            "DisplayValue": "花火大会あいうえお００１"
+          },
+          {
+            "Value": "혀내",
+            "DisplayValue": "혀내"
+          },
+          {
+            "Value": "zyy20231009",
+            "DisplayValue": "zyy20231009"
+          },
+          {
+            "Value": "Zyy20231019",
+            "DisplayValue": "Zyy20231019"
+          },
+          {
+            "Value": "!@#$%^&*()_+-={}[]\\|'\";:,./<>?`~",
+            "DisplayValue": "!@#$%^&*()_+-={}[]\\|'\";:,./<>?`~"
+          }
+        ],
+        "CellDefaultValue": "设置密码"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "2,44": 0,
+      "2,45": 0,
+      "2,46": 0,
+      "2,47": 0,
+      "2,48": 0,
+      "2,49": 0,
+      "2,50": 0,
+      "2,51": 0,
+      "2,52": 0,
+      "2,53": 0,
+      "3,44": 0,
+      "3,45": 0,
+      "3,46": 0,
+      "3,47": 0,
+      "3,48": 0,
+      "3,49": 0,
+      "3,50": 0,
+      "3,51": 0,
+      "3,52": 0,
+      "3,53": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,2,24,41",
+    "2,44,2,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "passwordsetting",
+      "Formula": "'Export Listview to Excel 02'!$AS$3"
+    },
+    {
+      "Name": "UserControl_Container",
+      "Formula": "'Export Listview to Excel 02'!$C$3"
+    }
+  ]
+}//c+Q5h1Wzjvs0CuGXSbAEtSPJ7HVD/4tEfovn2i4LcCI62BEjLjPCRHqhSLzszXejxRhu8bZd4/tjGcx7Nmm+2/LLjYnZI4Juf4ZExgeZZmJapIkqm6qb5Gb7gSh4dsV9HDHQ7RjXYH7tfaWwJ81YrEP/nM/+i5GH3UQz9L16giAeAst/2i+hjU88oE44odKqIT7rixQcCPwscXtzp5z4Gh4vsmNCY1plxIln5stBggHZL88j9phaNEaAfsqtDqY97VBpwLjChGQs1qTWQHdY3fK4i9iGAbKicd3qj7Ee/G8Qh75EkzrGRNGbAAljntrWlIwYJfqztaIrQ6OF0IAyIMBo2o/ZN1V70qFat7ISD1btWWsKVU3VJRT3Q37dAYUG0YdOH79CqSdt/jvMb0HS+H15oK2tEpfkA7GJ0VPBnHb6/gHmz4++4DrT1DRuq19P0cvpd3RAZDhPL+CbKa/UDxNtERjLB3cuCL0c0VJ9XuzDhtGDSyWlOgaIP7kQ5DQfdvf4o0LVYPfozrdQHfSpLRO87aBMVpzD5fzY9JQGPw8F3LouoEIAEOgeVVv3W1A/1O3ZjeZu7RtGPoeNBU1BJGkN9Q/X6tRBQCLMtMyUkO5cViOk15Xm70uLOEp1OBOY3XmZDJU+Jo4BXmJRXYPO1aiQq1McCoB9I2l4gHeHs7gi2Toiu+AQ0sZ8bdAqkJiRYLbj1l0Pp5HOJ9CYPwQJCPxrnEugaFigA1q3KzrtbO2TBJokMGS3zk7Z70Msq2syn6XLL6nGIUNFTFdmTd6epUf58OCQve7BGnQ6WILi2j4ojFawTTpm6fR5Iznb+4QaAMTktWSfbj0pwct1QGuxFDCgVHBjbuYPOGPxQuihyGG/lvmqdcwJ+S+YEyd31iJjYkl0J749CSs15bOEZW9sSw==|920

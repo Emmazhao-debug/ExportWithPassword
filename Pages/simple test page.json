@@ -1,0 +1,355 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 22.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "Values": {
+    "2,2": "export with password",
+    "2,9": "export without password",
+    "2,16": "import",
+    "5,35": "导出页面",
+    "8,35": "导出listview",
+    "15,37": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "Formulas": {
+    "17,37": "LEN(AL16)"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
+            "Password": "123456",
+            "ListViewName": "Listview1",
+            "NewOtherName": "",
+            "IsOnlyExportValue": false
+          }
+        ],
+        "Text": "export with password",
+        "TemplateKey": "_RS_Normal_Style3"
+      }
+    },
+    "2,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
+            "ListViewName": "Listview1",
+            "NewOtherName": "",
+            "IsOnlyExportValue": false
+          }
+        ],
+        "Text": "export without password",
+        "TemplateKey": "_RS_Normal_Style3"
+      }
+    },
+    "2,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ImportExcelToListViewCommand, ServerDesignerCommon",
+            "ListViewName": "Listview1",
+            "ImportExcelToListViewColumnInfos": [
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='simple test page'!G7"
+                },
+                "ColumnName": "企业"
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='simple test page'!N7"
+                },
+                "ColumnName": "联系人"
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='simple test page'!T7"
+                },
+                "ColumnName": "电话"
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='simple test page'!AA7"
+                },
+                "ColumnName": "地址"
+              },
+              {
+                "Column": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='simple test page'!AE7"
+                },
+                "ColumnName": "备注"
+              }
+            ]
+          }
+        ],
+        "Text": "import",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,23": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,31": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,2": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "汽车企业信息",
+        "RowIndex": 5,
+        "ColumnIndex": 2,
+        "RowCount": 14,
+        "ColumnCount": 32,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "5,35": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "导出页面",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "6,2": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "ID",
+        "GUID": "6d1e1cba-c7af-428e-97d4-0f107e45942b"
+      }
+    },
+    "6,6": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "企业",
+        "GUID": "06cc3f46-65f4-4387-8933-1176ee9766bd"
+      }
+    },
+    "6,13": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "联系人",
+        "GUID": "78565662-79b0-4343-a887-7f721ce4295d"
+      }
+    },
+    "6,19": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "电话",
+        "GUID": "f86e2745-c159-401a-96be-f5a9c88cf0ba"
+      }
+    },
+    "6,26": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "地址",
+        "GUID": "edf98eb8-97d8-4665-9ef3-07c7523c729f"
+      }
+    },
+    "6,30": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "备注",
+        "GUID": "c11d7459-cfff-4fe4-8074-e74738ad01ee"
+      }
+    },
+    "8,35": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportListViewToExcelCommand, ServerDesignerCommon",
+            "ListViewName": "Listview1",
+            "NewOtherName": "",
+            "IsOnlyExportValue": false
+          }
+        ],
+        "Text": "导出listview",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "2,9": 1,
+      "2,10": 2,
+      "2,11": 2,
+      "2,12": 2,
+      "2,13": 2,
+      "2,16": 3,
+      "2,17": 2,
+      "2,18": 2,
+      "2,19": 2,
+      "2,20": 2,
+      "2,31": 2,
+      "2,32": 2,
+      "2,33": 2,
+      "2,34": 2,
+      "2,35": 2,
+      "3,9": 2,
+      "3,10": 2,
+      "3,11": 2,
+      "3,12": 2,
+      "3,13": 2,
+      "3,16": 2,
+      "3,17": 2,
+      "3,18": 2,
+      "3,19": 2,
+      "3,20": 2,
+      "3,31": 2,
+      "3,32": 2,
+      "3,33": 2,
+      "3,34": 2,
+      "3,35": 2,
+      "5,6": 4,
+      "5,7": 4,
+      "5,8": 4,
+      "5,9": 4,
+      "5,10": 4,
+      "5,11": 4,
+      "5,12": 4,
+      "5,13": 2,
+      "5,19": 5,
+      "5,20": 4,
+      "5,21": 4,
+      "5,22": 4,
+      "5,23": 4,
+      "5,24": 4,
+      "5,25": 4,
+      "5,26": 2,
+      "5,30": 2,
+      "6,13": 2,
+      "6,19": 2,
+      "6,26": 2,
+      "6,30": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,2,2,5",
+    "7,2,12,32",
+    "15,37,2,12",
+    "17,37,2,9",
+    "2,9,2,5",
+    "2,16,2,5",
+    "6,2,1,4",
+    "6,6,1,7",
+    "6,13,1,6",
+    "6,19,1,7",
+    "6,26,1,4",
+    "6,30,1,4",
+    "2,23,2,5",
+    "2,31,2,5",
+    "8,35,2,6",
+    "5,35,2,6",
+    "11,35,2,9",
+    "5,2,1,4",
+    "5,6,1,7",
+    "5,13,1,6",
+    "5,19,1,7",
+    "5,26,1,4",
+    "5,30,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "汽车企业信息"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "testcell",
+      "Formula": "'simple test page'!$AJ$12"
+    }
+  ]
+}//Mn3UU8Q9s+Pd0RaF1E6W0lEZahp+kgKFKDgH7g0kb+KWi4BwIXMrp0pS6qfJTiGMeEWCj5nzPMj+zuNMBSzxb+E19ygb5/y3tkZxlCONk8UFmsnVGs7Uxel7RTLcdyG6PPlmLv1NbIjQzMKcYea+0+oW9bmf+90bpo1WpzasC+L9nvvETdFo3bNEhU+96dQxmjCy+yvbP7j90IDysN0LWFELuRlPyB9WxTp641CERUQ2itZ4+pkYgoP3oYw1O1tAd2mI02OaI7qGL3OHhnigWRHkriDe8yoK7YqAsMITY23sQTTToT3xEB0d8FYS/4RLOu7J4jz3ABkW+joLXPHjt1yCV9ELW+eLj1SgjSRlurJGTZwiwvJ8e1Sv9o/V4OCKEkuTKoQoilymQ6J5hLxV9/bdSihuwXBIU4hQ0B+ZQAPUWdy9c14NmxdqwY3iFEVYlivje2emIXE8+TC0Q2Cd45nGfnuMcfYRdhgi97nCg8SO/plehkNcIUl8Qp3wMeEnq9hdDw7zrfzXh4acAU94nJFybDfurhdTeIPAYzb4bTpt88I1lUM8vbKepupCJobamX7XJfPZNU9oQf1xPaiO2CrO77fBgGY3/K/jtzU10aPsK+H6hgHsiMRptfDsdZdY5qLQ+2Md4/kadDcOviIz+9TalA+cudx3Koo7UCS9iVz9HzDWBlIwE+xWB+OVq+as20CgfIBplgzfjv35XOK9SiMgyKG8nFOdoXtMw2PHw7FnJKJkVKeTRDQ7tv8lAffch79Rt/PeJ0r0DJc4HkqKHA8LHt+GprX/yUfez6X1uv1kq1PUk65hbvWUjgJbcprqS76pz5wq18jO6X3gDEpzB2AncBCOhrH/4KcueMdUOA541Uaas5zq+I3i2YLUcljvpSMMYpAJ42wbGLDnJYUkjA==|920

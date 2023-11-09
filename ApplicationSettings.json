@@ -1,0 +1,23 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "!y8nm^U*fUhJ"
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [
+    {
+      "Name": "passwordsetting",
+      "Value": "xA123456@ga"
+    },
+    {
+      "Name": "exportpath",
+      "Value": "C:\\share\\exporttabletoexcel.xlsx"
+    }
+  ],
+  "WebSitePort": 14643,
+  "UserServicePort": 22231,
+  "StartDateFiscalYear": 4,
+  "BaseOnStartingMonth": true,
+  "CellTypeSpinInfos": [],
+  "AuditingList": {}
+}

@@ -1,0 +1,119 @@
+{
+  "Rows": {
+    "Count": 44
+  },
+  "Cols": {
+    "Count": 42
+  },
+  "Values": {
+    "1,1": "设置密码"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "设置密码",
+            "DisplayValue": "设置密码"
+          },
+          {
+            "Value": "HanaDB密码设置001",
+            "DisplayValue": "HanaDB密码设置001"
+          },
+          {
+            "Value": "花火大会あいうえお００１",
+            "DisplayValue": "花火大会あいうえお００１"
+          },
+          {
+            "Value": "혀내",
+            "DisplayValue": "혀내"
+          },
+          {
+            "Value": "zyy20231009",
+            "DisplayValue": "zyy20231009"
+          },
+          {
+            "Value": "Zyy20231019",
+            "DisplayValue": "Zyy20231019"
+          },
+          {
+            "Value": "!@#$%^&*()_+-={}[]\\|'\";:,./<>?`~",
+            "DisplayValue": "!@#$%^&*()_+-={}[]\\|'\";:,./<>?`~"
+          }
+        ],
+        "CellDefaultValue": "设置密码"
+      }
+    },
+    "4,1": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,1,35,40",
+    "1,1,2,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [],
+    "Comment": "test"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "passwordsetting",
+      "Formula": "MasterPage1!$B$2"
+    }
+  ]
+}//PtZ98lcDgOcF7Rja6rT2UMKotY87ibXsWZkcd0J3Pv2F6n7pMQkU0U4h5gVZVCmF90BG8zS787A7TS2kJyrYJnvYL6Bo9DjPcB++7qXIUAIkdUCKcJagQ2hdvwr/r7Ez4wY0n5ymM2axoAMKyCuUTDQokbI7Q34+gnKbsl7MNhP3x5JhTif4PHWmwztnDf1fTo77tt5mlqhttzYzJM2uwM2PVYRJjTaQMQUMU5OPE6SDQy7ZdbUqq1nQwr0Sz2S3qpxbZwV6KDtz0hGNrrrW12xW/A1hBJjDFVNWl/x8HuApn3mV6e5pScKYw9SsJAtkyDsVOqLD/hHUn0S8ym+TEoBGPNu7x1HgaBQZtBjndept1djqEy8DUOijia7+A39O471k8uvTULDZV/ZHLeSu0jL6LBVk2s2XZaNUHxrouRJrPF57n85ZBQZfi4Cg+VmngMAQhq3b0DKG12UgA17/RPySzf6QB9tCZKSExKLyrh6jdpKW1BmCD9D6oNQqTeQFYxd3RGb7259fZmrUGThoIv2Zup0gHnHh7hUcCZ8Ww6ca2tmVHulG0bCOSSJFAPnT6dDR/8ZxXSdmc8PQw0a5Yzs8bqXblTpOgcXf2KvPHVkBQptHfi17OJ2eAKd0APzjZ9n3UB0hOtMYqLisUV9cI+FI21MuzKA9sanW9a5Tf4s1uj1vl/B2/syX8hql73vBSkpLQjMgewvwLzwBX/urF0rPs1gf+lc/XdnMhBvo5DeBnloKM39XzZHx8ONsQ1Caw05P5uHBOX++DtL9KL/mx+VWMXs/XM2zgyNXXDqw2BkaZDeDh16fbmsTowz/2Un0c1o5bzuMLgmt8TG9nkm1c84dBiipbDMZ80gSoQGJBA/3APg6h3bTgXY20EL0ovXlsVskfzjvoZFlIRH2gf5eaA==|920

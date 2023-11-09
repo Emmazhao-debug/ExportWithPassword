@@ -1,0 +1,44 @@
+{
+  "Name": "导出页面到Excel-private",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon",
+      "Parameters": [
+        {
+          "ArrayItems": [],
+          "Name": "filepath",
+          "DataValidationInfo": {},
+          "TestData": "C:\\temp\\export"
+        },
+        {
+          "ArrayItems": [],
+          "Name": "password",
+          "DataValidationInfo": {},
+          "TestData": "123456"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+      "TargetPageName": "被导出页面",
+      "ExportCellValueInfos": [
+        {
+          "CellName": "cellname",
+          "CellValue": "2000-get"
+        }
+      ],
+      "ExportListViewCurrentRowInfos": [
+        {
+          "BindingTable": "汽车企业信息"
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": []
+}

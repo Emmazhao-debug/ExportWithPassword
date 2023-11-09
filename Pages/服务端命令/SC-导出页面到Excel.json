@@ -1,0 +1,922 @@
+{
+  "Rows": {
+    "Count": 34
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "0,2": "导出页面到Excel-Server Command",
+    "1,11": "filepath",
+    "1,33": "空值验证",
+    "2,2": "传递区域给密码",
+    "2,11": "D:\\TestProject\\导出Excel文件支持设置密码",
+    "2,33": "空值",
+    "4,11": "password",
+    "5,11": "xA123456",
+    "5,33": "传空参数值",
+    "8,2": "参数传递给密码",
+    "8,11": "client show",
+    "8,33": "命令调用处传空",
+    "11,2": "导出页面到Excel-指定字符串",
+    "11,24": "地址",
+    "11,33": "密码长度测试",
+    "11,40": "密码长度大于255",
+    "13,33": ">255",
+    "14,2": "导出页面到Excel-Get",
+    "14,24": "备注",
+    "14,33": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "17,2": "callprivatecommand",
+    "19,33": "传空参数值1",
+    "20,2": "导出页面到excel-不存在的参数",
+    "22,33": ">255",
+    "23,2": "密码使用全局变量",
+    "23,33": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "26,2": "使用全局变量",
+    "28,33": "传空参数值1"
+  },
+  "Formulas": {
+    "13,55": "LEN(AH15)",
+    "22,55": "LEN(AH24)",
+    "22,33": "255"
+  },
+  "AttachInfos": {
+    "1,50": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "2,2": {
+      "CellComment": {
+        "Comments": "正常导出Excel文件不带密码\r\n"
+      },
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出页面到Excel-post",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "filepath",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='SC-导出页面到Excel'!Textbox"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "password",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='SC-导出页面到Excel'!Textbox1"
+                }
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "传递区域给密码",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "2,11": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "D:\\TestProject\\导出Excel文件支持设置密码"
+      }
+    },
+    "2,33": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出页面到Excel-null",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "filepath"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "password"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "空值",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,11": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "xA123456"
+      }
+    },
+    "5,33": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "传空参数值",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "传空参数值",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "8,2": {
+      "CellComment": {
+        "Comments": "正常导出Excel文件不带密码\r\n"
+      },
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出页面到Excel-post",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "filepath",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='SC-导出页面到Excel'!Textbox"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "password",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='SC-导出页面到Excel'!Textbox1"
+                }
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "参数传递给密码",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "8,33": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "传空参数值1",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "Parameter1"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "命令调用处传空",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "11,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出页面到Excel-指定字符串",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出页面到Excel-指定字符串",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "11,11": {
+      "ListViewInfo": {
+        "Name": "Listview1",
+        "TableName": "汽车企业信息",
+        "RowIndex": 11,
+        "ColumnIndex": 11,
+        "RowCount": 13,
+        "ColumnCount": 12,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "11,40": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "密码长度大于255",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "密码长度大于255",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "12,11": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "企业",
+        "GUID": "54f45b39-87dd-4ec9-abed-27a1d80c142b"
+      }
+    },
+    "12,15": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "联系人",
+        "GUID": "5e7eabb6-8282-486b-bfa8-e57a1a5e8896"
+      }
+    },
+    "12,19": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "电话",
+        "GUID": "30459782-e528-40c9-921c-782adba88b29"
+      }
+    },
+    "12,24": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "地址",
+        "GUID": "3e5819fc-fffb-45c1-9114-c7a530d2f04e"
+      }
+    },
+    "14,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出页面到Excel-get",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "filepath",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='SC-导出页面到Excel'!Textbox"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "password",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "='SC-导出页面到Excel'!Textbox1"
+                }
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出页面到Excel-Get",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "14,33": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "15,24": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "备注",
+        "GUID": "958a4b8d-02a5-4bc2-89d0-61adf82c79ed"
+      }
+    },
+    "17,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "callprivatecommand",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "filepath"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "password"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "callprivatecommand",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "19,33": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "传空参数值1",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "Parameter1"
+              }
+            ],
+            "ResultMessageTo": {
+              "SerializeProperty": "result"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "传空参数值1",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "20,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "导出页面到excel-不存在的参数",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "导出页面到excel-不存在的参数",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "23,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "密码使用全局变量",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "密码使用全局变量",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "23,33": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "26,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "使用全局变量",
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "使用全局变量",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "28,33": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "传空参数值1",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "Parameter1"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "传空参数值1",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "Background": 1
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "WordWrap": true
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontWeight": 4
+      },
+      {
+        "Formatter": 0,
+        "VerticalAlignment": 5,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 0,
+        "VerticalAlignment": 5,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "#FFFFFF00",
+        "Body",
+        "[AUTO]General",
+        "Bold",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "2,11": 0,
+      "5,2": 1,
+      "5,3": 1,
+      "5,4": 1,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,11": 0,
+      "6,2": 1,
+      "6,3": 1,
+      "6,4": 1,
+      "6,5": 1,
+      "6,6": 1,
+      "6,7": 1,
+      "6,8": 1,
+      "6,9": 1,
+      "8,2": 2,
+      "8,3": 3,
+      "8,4": 3,
+      "8,5": 3,
+      "8,6": 3,
+      "8,7": 3,
+      "8,8": 3,
+      "8,55": 3,
+      "9,2": 3,
+      "9,3": 3,
+      "9,4": 3,
+      "9,5": 3,
+      "9,6": 3,
+      "9,7": 3,
+      "9,8": 3,
+      "11,2": 4,
+      "11,19": 5,
+      "11,20": 5,
+      "11,21": 5,
+      "11,22": 5,
+      "11,33": 6,
+      "14,2": 3,
+      "14,3": 3,
+      "14,4": 3,
+      "14,5": 3,
+      "14,6": 3,
+      "14,7": 3,
+      "14,8": 3,
+      "14,33": 7,
+      "15,2": 3,
+      "15,3": 3,
+      "15,4": 3,
+      "15,5": 3,
+      "15,6": 3,
+      "15,7": 3,
+      "15,8": 3,
+      "18,43": 3,
+      "20,2": 4,
+      "20,41": 3,
+      "20,42": 3,
+      "22,33": 2,
+      "22,34": 3,
+      "22,35": 3,
+      "22,36": 3,
+      "22,37": 3,
+      "22,38": 3,
+      "22,39": 3,
+      "22,40": 3,
+      "22,41": 3,
+      "22,42": 3,
+      "22,43": 3,
+      "22,44": 3,
+      "22,45": 3,
+      "22,46": 3,
+      "22,47": 3,
+      "22,48": 3,
+      "22,49": 3,
+      "22,50": 3,
+      "22,51": 3,
+      "22,52": 3,
+      "22,53": 3,
+      "22,54": 3,
+      "22,55": 3,
+      "22,56": 3,
+      "22,57": 3,
+      "22,58": 3,
+      "23,27": 3,
+      "23,33": 8,
+      "23,34": 3,
+      "23,35": 3,
+      "23,36": 3,
+      "23,37": 3,
+      "23,38": 3,
+      "23,39": 3,
+      "23,40": 3,
+      "23,41": 3,
+      "23,42": 3,
+      "23,43": 3,
+      "23,44": 3,
+      "23,45": 3,
+      "23,46": 3,
+      "23,47": 3,
+      "23,48": 3,
+      "23,49": 3,
+      "23,50": 3,
+      "23,51": 3,
+      "23,52": 3,
+      "23,53": 3,
+      "23,54": 3,
+      "23,55": 3,
+      "23,56": 3,
+      "23,57": 3,
+      "23,58": 3,
+      "24,33": 3,
+      "24,34": 3,
+      "24,35": 3,
+      "24,36": 3,
+      "24,37": 3,
+      "24,38": 3,
+      "24,39": 3,
+      "24,40": 3,
+      "24,41": 3,
+      "24,42": 3,
+      "24,43": 3,
+      "24,44": 3,
+      "24,45": 3,
+      "24,46": 3,
+      "24,47": 3,
+      "24,48": 3,
+      "24,49": 3,
+      "24,50": 3,
+      "24,51": 3,
+      "24,52": 3,
+      "24,53": 3,
+      "24,54": 3,
+      "24,55": 3,
+      "24,56": 3,
+      "24,57": 3,
+      "24,58": 3,
+      "25,33": 3,
+      "25,34": 3,
+      "25,35": 3,
+      "25,36": 3,
+      "25,37": 3,
+      "25,38": 3,
+      "25,39": 3,
+      "25,40": 3,
+      "25,41": 3,
+      "25,42": 3,
+      "25,43": 3,
+      "25,44": 3,
+      "25,45": 3,
+      "25,46": 3,
+      "25,47": 3,
+      "25,48": 3,
+      "25,49": 3,
+      "25,50": 3,
+      "25,51": 3,
+      "25,52": 3,
+      "25,53": 3,
+      "25,54": 3,
+      "25,55": 3,
+      "25,56": 3,
+      "25,57": 3,
+      "25,58": 3,
+      "26,33": 3,
+      "26,34": 3,
+      "26,35": 3,
+      "26,36": 3,
+      "26,37": 3,
+      "26,38": 3,
+      "26,39": 3,
+      "26,40": 3,
+      "26,41": 3,
+      "26,42": 3,
+      "26,43": 3,
+      "26,44": 3,
+      "26,45": 3,
+      "26,46": 3,
+      "26,47": 3,
+      "26,48": 3,
+      "26,49": 3,
+      "26,50": 3,
+      "26,51": 3,
+      "26,52": 3,
+      "26,53": 3,
+      "26,54": 3,
+      "26,55": 3,
+      "26,56": 3,
+      "26,57": 3,
+      "26,58": 3,
+      "27,33": 3,
+      "27,34": 3,
+      "27,35": 3,
+      "27,36": 3,
+      "27,37": 3,
+      "27,38": 3,
+      "27,39": 3,
+      "27,40": 3,
+      "27,41": 3,
+      "27,42": 3,
+      "27,43": 3,
+      "27,44": 3,
+      "27,45": 3,
+      "27,46": 3,
+      "27,47": 3,
+      "27,48": 3,
+      "27,49": 3,
+      "27,50": 3,
+      "27,51": 3,
+      "27,52": 3,
+      "27,53": 3,
+      "27,54": 3,
+      "27,55": 3,
+      "27,56": 3,
+      "27,57": 3,
+      "27,58": 3,
+      "28,33": 3,
+      "28,34": 3,
+      "28,35": 3,
+      "28,36": 3,
+      "28,37": 3,
+      "28,38": 3,
+      "28,39": 3,
+      "28,40": 3,
+      "28,41": 3,
+      "28,42": 3,
+      "28,43": 3,
+      "28,44": 3,
+      "28,45": 3,
+      "28,46": 3,
+      "28,47": 3,
+      "28,48": 3,
+      "28,49": 3,
+      "28,50": 3,
+      "28,51": 3,
+      "28,52": 3,
+      "28,53": 3,
+      "28,54": 3,
+      "28,55": 3,
+      "28,56": 3,
+      "28,57": 3,
+      "28,58": 3,
+      "29,33": 3,
+      "29,34": 3,
+      "29,35": 3,
+      "29,36": 3,
+      "29,37": 3,
+      "29,38": 3,
+      "29,39": 3,
+      "29,40": 3,
+      "29,41": 3,
+      "29,42": 3,
+      "29,43": 3,
+      "29,44": 3,
+      "29,45": 3,
+      "29,46": 3,
+      "29,47": 3,
+      "29,48": 3,
+      "29,49": 3,
+      "29,50": 3,
+      "29,51": 3,
+      "29,52": 3,
+      "29,53": 3,
+      "29,54": 3,
+      "29,55": 3,
+      "29,56": 3,
+      "29,57": 3,
+      "29,58": 3,
+      "31,49": 3,
+      "31,50": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "2,2,2,7",
+    "2,11,2,19",
+    "5,11,2,19",
+    "8,2,2,7",
+    "8,11,2,19",
+    "12,11,1,4",
+    "12,15,1,4",
+    "12,19,1,4",
+    "12,24,2,6",
+    "15,24,2,6",
+    "11,2,2,7",
+    "1,50,2,9",
+    "14,2,2,7",
+    "17,2,2,7",
+    "20,2,2,7",
+    "2,33,2,6",
+    "5,33,2,6",
+    "8,33,2,6",
+    "14,33,4,26",
+    "13,55,1,4",
+    "19,33,2,6",
+    "23,33,4,26",
+    "22,55,1,4",
+    "28,33,2,6",
+    "11,33,1,6",
+    "13,11,11,12",
+    "23,2,2,7",
+    "26,2,2,7",
+    "11,40,2,7",
+    "11,11,1,4",
+    "11,15,1,4",
+    "11,19,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "汽车企业信息"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "cellname",
+      "Formula": "'SC-导出页面到Excel'!$L$9"
+    },
+    {
+      "Name": "Current_User",
+      "Formula": "'SC-导出页面到Excel'!$AY$2"
+    },
+    {
+      "Name": "传递区域给密码",
+      "Formula": "'SC-导出页面到Excel'!$C$3"
+    },
+    {
+      "Name": "Textbox",
+      "Formula": "'SC-导出页面到Excel'!$L$3"
+    },
+    {
+      "Name": "空值",
+      "Formula": "'SC-导出页面到Excel'!$AH$3"
+    },
+    {
+      "Name": "Textbox1",
+      "Formula": "'SC-导出页面到Excel'!$L$6"
+    },
+    {
+      "Name": "传空参数值",
+      "Formula": "'SC-导出页面到Excel'!$AH$6"
+    },
+    {
+      "Name": "参数传递给密码",
+      "Formula": "'SC-导出页面到Excel'!$C$9"
+    },
+    {
+      "Name": "命令调用处传空",
+      "Formula": "'SC-导出页面到Excel'!$AH$9"
+    },
+    {
+      "Name": "Button",
+      "Formula": "'SC-导出页面到Excel'!$C$12"
+    },
+    {
+      "Name": "Button1",
+      "Formula": "'SC-导出页面到Excel'!$C$15"
+    },
+    {
+      "Name": "Multiline_Text",
+      "Formula": "'SC-导出页面到Excel'!$AH$15"
+    },
+    {
+      "Name": "callprivatecommand",
+      "Formula": "'SC-导出页面到Excel'!$C$18"
+    },
+    {
+      "Name": "传空参数值1",
+      "Formula": "'SC-导出页面到Excel'!$AH$20"
+    },
+    {
+      "Name": "Button2",
+      "Formula": "'SC-导出页面到Excel'!$C$21"
+    },
+    {
+      "Name": "密码使用全局变量",
+      "Formula": "'SC-导出页面到Excel'!$C$24"
+    },
+    {
+      "Name": "Multiline_Text1",
+      "Formula": "'SC-导出页面到Excel'!$AH$24"
+    },
+    {
+      "Name": "使用全局变量",
+      "Formula": "'SC-导出页面到Excel'!$C$27"
+    },
+    {
+      "Name": "传空参数值2",
+      "Formula": "'SC-导出页面到Excel'!$AH$29"
+    },
+    {
+      "Name": "passwordlengthbiggerthan255",
+      "Formula": "'SC-导出页面到Excel'!$AO$12"
+    }
+  ]
+}//8l7Z+eMIy83t22FoR1q8VVhYXfxhGGpz9K5KFunFS/OLcF4BW1flUxwg01ZzBcmoQzhNrzGrecel/IGQcivBN9H2VHE9oqsCOrUQgDcvEY1X+vXPIZ3uNaoCSU1kv7jjprcQMLl0U6eSO7YoAW9yC1KDaN9irzPG1i/6iHEIZn24Pd3KsXdp2Gu2c4R5ww4FNKyuAu3YGVfPbzRCVYrgrnFYFYMWy0IqrRPPppeM+R6Wa4PNvapkC3Pda9pXfNvKY1n/8LzfovU9ERv30WHGs7LSfkOL35XGp6buyCaUxJTVOXDH4Hu72rkf3qZpMS6jHQSwJLjl2kWDt/02BpcExiCRHSQMURddd7IHjoo67ArcZUN29arH+WPgCqFNrBT4n218hq226abfdBx+7DUF2Y/dUNBY0mUIS495KkVnMc/8fBpOGT1+WSZHqHTQ/s84IkES4HdH0c/freKQ6KUKMDBDdnfHKCc7Bq8mcaERUXCgu3CNCe1mvtT3+KWDuLCrZDi/+W3hoF+xm8bHLz3UwLqwaX/QhOEdqwuBCgvHPC4dKSP0jPX8FEs96fBGWeyf3JYOTsH6AO2TEidfahrOk+iXDYIZVyVuOvmwpPx+lHOVnbeT83Ehy+yO8R/srVmzZF6cWUku0xG0ErWGEghuGlH6xEieJwcWkpAojBzYBBmW6zZZgO2aSA1Aha39ubrwHdONVyCnaIkxZ5y+quoZApFTQ8zI6xpXMkYlj3gGvbCNMjbow4pNMbPfZ3wThSoBoCVdRkh6k1j8xJ0mpc862klnIY8PStfeN99PUBHc0BFTYnHxA8anAAZuqbLxT2/k9cz6abfbxe63KX3x3WUst678xitF8pXqfdt6TH64MaxsPQYTdxzhxhwmpdHMvUpsSBzjtoq1bF1eqeBy+dXjpg==|920
